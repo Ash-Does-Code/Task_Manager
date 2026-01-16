@@ -241,6 +241,32 @@ POST /tasks
   "createdAt": "2026-01-16T10:00:00.000Z",
   "updatedAt": "2026-01-16T10:00:00.000Z"
 }
+
+some sample tasks:
+[
+  {
+    "title": "Setup Express Project",
+    "description": "Initialize npm, install express and nodemon",
+    "completed": true
+  },
+  {
+    "title": "Create Task Model",
+    "description": "Define mongoose schema for tasks",
+    "completed": true
+  },
+  {
+    "title": "Implement JWT Authentication",
+    "description": "Protect routes using JWT middleware",
+    "completed": false
+  },
+  {
+    "title": "Add Pagination to Tasks API",
+    "description": "Use limit and skip query params",
+    "completed": false
+  }
+]
+
+
 ```
 
 ---
